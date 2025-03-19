@@ -1,0 +1,55 @@
+review1.cs
+cognitive complexity is 19
+use list of days reduced to 3
+public bool IsShopOpen(string day)
+{
+    if (string.IsNullOrEmpty(day))
+    {
+       return false;
+    }
+   
+    List<string> aList = new List<string>(){"Friday", "Saturday","Sunday"} ;
+    return aList.Contains(day);
+
+}
+
+review3.cs
+cognitive complexity is 21
+reduced to 6
+public long Fibonacci(int n)
+{
+    if(n>=50)
+    {
+         throw new System.Exception("Not supported");
+    }
+
+    if (n == 0) return 0;
+    if (n ==1) return 1;
+   long a = 0;
+    long b = 1;
+    for (int i = 2; i <= n; i++)
+    {
+        long temp = a + b;
+        a = b;
+        b = temp;
+    }
+    return b;
+}
+
+review4.cs
+comment : Name should be meaningful
+solution : change name to more descriptive
+
+review5.cs
+comment : condition is not meaningful
+
+review6.cs
+comment : car is redundant in property names
+solution : avoid this noise
+
+review9.cs
+cognitive complexity is 2
+reduced to 0
+public void CreateMicrobrewery(string name = "Hipster Brew Co.")
+{
+}
