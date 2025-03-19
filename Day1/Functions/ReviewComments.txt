@@ -1,0 +1,19 @@
+review1.cs
+comment : member variable name is ambiguos, all methods name not PascalCase and checkPassword is not meaningful. And session class is not initialized
+nested return statements can be avoided.
+
+review2.cs
+Comment: Member variable can be string , name should not be re assigned , Method naming can be improved
+Solution: "name" can be better written as fullName, name is being re assigned use a seperate variable instead,Method naming can be "PrintName"
+
+review3.cs
+comment : Method and Argument names are not descriptive
+
+review5.cs
+comment :  method doesnot return path and location is hardcoded, a list or enum can be used 
+
+review6.cs
+comment : method Arguments names can be more descriptive and "./temp/" should not be hardcoded
+
+review8.cs
+comment : method Arguments names can be more descriptive
