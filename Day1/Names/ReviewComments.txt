@@ -1,0 +1,27 @@
+review1.cs
+comment : The variable name is not meaningful
+solution : Provide a descriptive name for the variable in camelCase like elapsedTimeInDays
+
+review2.cs
+comment : Variable name and Method name are not descriptive. 
+solution : Variable name can be getListOfEmployees and method name can be Database.GetEmployeesFromService()
+
+review3.cs
+comment : prefixes in the variables names can be removed to make the variables more readable
+solution : removed prefixes and use camelCase
+
+review4.cs
+comment : Arguments names are not descriptive
+solution : renamed to more meaningful Argument names
+
+review5.cs
+comment : constants, methods and class are not in PascalCase, variable are not in camelCase
+solution : rename and use PascalCase and camelCase case for suitable fields
+
+review6.cs
+comment : property names are not more readable and not in PascalCase
+solution : should be in PascalCase and meaningful
+
+review7.cs
+comment : variable and Arguments are not in camelCase
+solution : use camelCase
